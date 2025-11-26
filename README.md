@@ -28,3 +28,5 @@ This repository provides code to evaluate random-coding bounds on the per-user p
        sensing: Integrating AMP and belief propagation,” IEEE Trans. Inf. Theory, vol. 68, no. 4, pp. 2384–2409, 2022.
 
 **Note**: The Eb/N0 of the CCS-AMP-BP scheme for the UMAC is copied from [6], and hence not included in this repository. 
+
+**Version**: The simulations are performed with Python 3.13.4 and pytorch 2.7.1.
