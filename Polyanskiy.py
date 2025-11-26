@@ -50,7 +50,6 @@ def main():
             if err[i_snr,i_ka]<1e-6:
                 break
         data = {
-            # 'record': record.cpu(),
             'ka': ka_range.cpu(),
             'snr': snr_range.cpu(),
             'err':err.cpu(),
@@ -62,4 +61,5 @@ def main():
 if __name__ == "__main__":
     main()
     
+
 
